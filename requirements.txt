@@ -99,7 +99,6 @@ pyrsistent==0.17.3
 pystan==2.19.1.1
 python-dateutil
 pytz
-pywin32==300
 pywinpty==1.0.1
 PyYAML==5.1.2
 pyzmq==22.0.3
