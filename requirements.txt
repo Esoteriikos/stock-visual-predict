@@ -62,7 +62,6 @@ matplotlib-inline==0.1.2
 mistune==0.8.4
 mkl-fft
 mkl-random
-mkl-service
 mock==3.0.5
 multitasking==0.0.9
 nbclient==0.5.3
