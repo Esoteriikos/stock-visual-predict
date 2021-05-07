@@ -81,7 +81,7 @@ pandocfilters==1.4.3
 parso==0.8.2
 pickleshare==0.7.5
 Pillow
-plotly
+plotly==4.14.3
 prometheus-client==0.10.1
 prompt-toolkit==3.0.18
 protobuf==3.15.8
@@ -119,9 +119,9 @@ toml
 toolz==0.11.1
 tornado
 tqdm
-traitlets==5.0.5
+traitlets
 tzlocal==2.1
-urllib3==1.25.9
+urllib3
 validators==0.18.2
 watchdog==2.1.0
 wcwidth==0.2.5
@@ -131,5 +131,5 @@ widgetsnbextension==3.5.1
 wincertstore==0.2
 wrapt==1.11.2
 xarray
-yfinance==0.1.59
+yfinance==0.1.55
 zipp==3.1.0
