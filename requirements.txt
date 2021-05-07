@@ -94,7 +94,7 @@ Pygments==2.9.0
 PyMeeus==0.5.11
 pyparsing
 pyrsistent==0.17.3
-pystan==2.19.1.1
+pystan==2.17
 python-dateutil
 pytz
 PyYAML==5.1.2
