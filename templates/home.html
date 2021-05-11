@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Stocks</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
+   <style type="text/css">
+        .header{
+            text-align: center;
+            background-color: rgb(136, 185, 229);
+            height: 70px;
+            line-height: 70px;
+        }
+    </style>
+</head>
+	<body>
+
+    <div class="header">
+        <h2>
+            Stock Visualization
+        </h2>
+    </div>
+
+	<div class="text-center" style="padding: 50px 10px 50px">
+			<form class="form-inline" action="{{ url_for('process') }}">
+			  <div class="form-group">
+				<div class="input-group">
+					<span class="input-group-addon">Please select</span>
+						<select name="stock_name" class="selectpicker form-control">
+						  {% for o in stocks %}
+						  <option value="{{ o }}">{{ o }}</option>
+						  {% endfor %}                                              
+						</select>
+				</div>
+				<button type="submit" class="btn btn-default">Go</button>
+			  </div>
+			</form>
+		</div>
+	</body>
+	
+	
+<footer class="page-footer font-small blue">
+  <div class="text-center">@ CCL MINI PROJECT</div>
+</footer>
+
+</html>
