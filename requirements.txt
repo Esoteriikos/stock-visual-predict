@@ -4,3 +4,4 @@ pandas
 numpy
 datetime
 flask
+sklearn
