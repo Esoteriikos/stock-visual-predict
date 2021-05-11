@@ -3,7 +3,6 @@ altair==4.1.0
 argon2-cffi==20.1.0
 arviz==0.11.2
 astor==0.8.1
-async-generator1.10
 attrs==21.1.0
 backcall==0.2.0
 backports.weakref1.0.post1
