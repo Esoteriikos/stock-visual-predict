@@ -59,7 +59,8 @@ def process():
 
 
     ####### FUTURE PREDICTION #######
-    forecast_time = len(data)//2
+#     forecast_time = len(data)//2
+    forecast_time = 525
     x_last_date = data[-1:]['Date']
     X_prediction_df = data[-forecast_time:].drop(['Date'], 1)
 
